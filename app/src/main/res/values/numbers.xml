@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="waitAfterPair">500</integer>
+    <integer name="waitAfterTurn">1000</integer>
+    <integer name="avatarAnimationDuration">1000</integer>
+
+    <integer name="TAG_CARD_INDEX">100</integer>
+    <integer name="TAG_CARD_STATE">101</integer>
+</resources>

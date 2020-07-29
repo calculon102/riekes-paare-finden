@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/prefs_game_header">
+        <ListPreference
+            app:defaultValue="@string/prefs_game_card_count_default_value"
+            app:entries="@array/prefs_game_card_count_values"
+            app:entryValues="@array/prefs_game_card_count_values"
+            app:key="prefs_game_card_count"
+            app:title="@string/prefs_game_card_count_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/prefs_style_header">
+        <ListPreference
+            app:defaultValue="@string/prefs_style_card_default_value"
+            app:entries="@array/prefs_style_card_entries"
+            app:entryValues="@array/prefs_style_card_value"
+            app:key="prefs_style_card_back"
+            app:title="@string/prefs_style_card_back_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="@string/prefs_style_avatar_player_one_default"
+            app:entries="@array/prefs_style_avatar_entries"
+            app:entryValues="@array/prefs_style_avatar_values"
+            app:key="@string/prefs_style_avatar_player_one"
+            app:title="@string/prefs_style_avatar_player_one_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="@string/prefs_style_avatar_player_two_default"
+            app:entries="@array/prefs_style_avatar_entries"
+            app:entryValues="@array/prefs_style_avatar_values"
+            app:key="@string/prefs_style_avatar_player_two"
+            app:title="@string/prefs_style_avatar_player_two_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

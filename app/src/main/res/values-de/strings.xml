@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Riekes Paare finden</string>
+
+    <string name="action_newgame">Neues Spiel</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="card_imageview_description">Karte</string>
+
+    <string name="player_one_wins_imageview_description">Spieler Eins gewinnt!</string>
+    <string name="player_two_wins_imageview_description">Spieler Zwei gewinnt!</string>
+
+    <!-- Preference Titles -->
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <string name="prefs_game_header">Spiel</string>
+    <string name="prefs_style_header">Stil</string>
+
+    <!-- Game Preferences -->
+    <string name="prefs_game_card_count_title">Kartenanzahl</string>
+    <string name="prefs_game_card_count_summary">3x2, 3x3, 4x3, ...</string>
+
+    <!-- Style Preferences -->
+    <string name="prefs_style_card_back_title">Farbe der Kartenrücken</string>
+    <string name="prefs_style_card_back_summary">Blau, Purpur oder Rot</string>
+    <string-array name="prefs_style_card_entries">
+        <item>Blaue</item>
+        <item>Purpur</item>
+        <item>Rot</item>
+    </string-array>
+
+    <string name="prefs_style_avatar_player_one_title">Bild Spieler 1</string>
+    <string name="prefs_style_avatar_player_two_title">Bild Spieler 2</string>
+
+    <string-array name="prefs_style_avatar_entries">
+        <item>Affe</item>
+        <item>Bär</item>
+        <item>Katze</item>
+        <item>Küken</item>
+        <item>Kuh</item>
+        <item>Hund</item>
+        <item>Elefant</item>
+        <item>Giraffe</item>
+        <item>Hamster</item>
+        <item>Hippo</item>
+        <item>Pferd</item>
+        <item>Koala</item>
+        <item>Löwe</item>
+        <item>Maus</item>
+        <item>Panda</item>
+        <item>Schwein</item>
+        <item>Hase</item>
+        <item>Rentier</item>
+        <item>Schaf</item>
+        <item>Tiger</item>
+    </string-array>
+</resources>
